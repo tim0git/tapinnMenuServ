@@ -4,6 +4,7 @@
   "description": "quick server for menu non sql spike.",
   "main": "app.js",
   "scripts": {
+    "start": "node listen.js",
     "test-watch": "mocha --watch",
     "test": "mocha -exit",
     "server": "nodemon server"
