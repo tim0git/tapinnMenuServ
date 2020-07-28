@@ -1,41 +1,56 @@
 const mongoose = require('mongoose');
 
 const MenuSchema = new mongoose.Schema({
-  venue_id: {
-    type: mongoose.Schema.Types.ObjectId,
+  _id: {
+    type: Number,
     required: true
   },
-  Venue_name: {
+  venue_name: {
     type: String,
     required: true
   },
-  menu_items: [
+  venue_tables: {
+    type: Number,
+    required: true
+  },
+  menu: [
     {
-      school: {
+      product_type: {
         type: String,
         required: true
       },
-      qualification: {
+      product_description: {
         type: String,
         required: true
       },
-      fieldofstudy: {
-        type: String
-      },
-      from: {
-        type: Date,
+      product_price: {
+        type: Number,
         required: true
       },
-      to: {
-        type: Date
+      product_abv: {
+        type: Number,
+        required: true
       },
-      current: {
-        type: Boolean,
-        default: false
-      },
-      description: {
-        type: String
-      }
+      options: [
+        {
+          product_type: {
+            type: String,
+            required: true
+          },
+          product_description: {
+            type: String,
+            required: true
+          },
+          product_price: {
+            type: Number,
+            required: true
+          },
+          product_abv: {
+            type: Number,
+            required: true
+          }
+        }
+      ]
     }
   ],
   date: {
@@ -44,4 +59,4 @@ const MenuSchema = new mongoose.Schema({
   }
 });
 
-module.exports = Profile = mongoose.model('menu', MenuSchema);
+module.exports = Menu = mongoose.model('menu', MenuSchema);

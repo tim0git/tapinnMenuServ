@@ -1,27 +1,27 @@
 exports.send404 = (req, res, next) => {
   res.status(404).send({
     availableRoutes: {
-      POST: "/api/users",
-    },
+      POST: '/api/users'
+    }
   });
 };
 
 exports.handle405 = (req, res, next) => {
-  res.status(405).send({ msg: "method not allowed" });
+  res.status(405).send({ msg: 'method not allowed' });
 };
 
 exports.handleMongoDB_Error = (err, req, res, next) => {
-  console.log(err.name, err, "<-------------log EH"); /// dev and test only remove before deployment
+  console.log(err.name, err, '<-------------log EH'); /// dev and test only remove before deployment
   const codes = {
-    "11000": { status: 400, message: "User already exists" },
+    '11000': { status: 400, message: 'Venue already exists' },
     CastError: {
       status: 400,
-      message: "User id is not found",
+      message: 'User id is not found'
     },
     SyntaxError: {
       status: 400,
-      message: "unexpected string in JSON",
-    },
+      message: 'unexpected string in JSON'
+    }
   };
   if (err.code in codes || err.name in codes) {
     const { status, message } = codes[err.code] || codes[err.name];
@@ -41,5 +41,5 @@ exports.handleCustomError = (err, req, res, next) => {
 
 exports.handleInternalError = (err, req, res, next) => {
   console.log(err);
-  res.status(500).send({ msg: "Internal server error" });
+  res.status(500).send({ msg: 'Internal server error' });
 };

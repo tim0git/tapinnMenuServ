@@ -1,7 +1,6 @@
 const apiRouter = require('express').Router();
+const { getMenu, postMenu } = require('../controller/db.controller');
 
-apiRouter.use('/', (req, res) => {
-  res.status(200).send({ message: 'hello' });
-});
+apiRouter.route('/').get(getMenu).post(postMenu);
 
 module.exports = apiRouter;
