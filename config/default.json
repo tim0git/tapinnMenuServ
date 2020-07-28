@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://tapinn:tapinn12345@cluster0.qnyml.mongodb.net/tapinn?retryWrites=true&w=majority"
+}
