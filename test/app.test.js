@@ -10,6 +10,7 @@ describe('APP TESTS', () => {
         .get('/api?venue_id=1')
         .expect(200)
         .then(({ body }) => {
+          console.log(body);
           expect(body).to.have.property('_id', 1);
           expect(body).to.have.property('venue_name', 'test venue');
           expect(body).to.have.property('venue_tables', 5);
@@ -30,7 +31,7 @@ describe('APP TESTS', () => {
       request(app)
         .post('/api')
         .send({
-          venue_id: 1,
+          venue_id: 3,
           venue_name: 'test venue',
           venue_tables: 5,
           menu: [
@@ -65,7 +66,7 @@ describe('APP TESTS', () => {
         })
         .expect(200)
         .then(({ body }) => {
-          expect(body).to.have.property('_id', 1);
+          expect(body).to.have.property('_id', 3);
           expect(body).to.have.property('venue_name', 'test venue');
           expect(body).to.have.property('venue_tables', 5);
           expect(body).to.have.property('menu');

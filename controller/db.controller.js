@@ -4,7 +4,7 @@ exports.getMenu = async (req, res, next) => {
   const { venue_id } = req.query;
 
   try {
-    const menu = await Menu.findById(venue_id);
+    const menu = await Menu.findById(venue_id).sort('desc');
 
     res.status(200).send(menu);
   } catch (error) {
