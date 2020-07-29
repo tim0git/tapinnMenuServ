@@ -15,42 +15,54 @@ const MenuSchema = new mongoose.Schema({
   },
   menu: [
     {
-      product_type: {
+      type: {
         type: String,
         required: true
       },
-      product_description: {
-        type: String,
-        required: true
-      },
-      product_price: {
-        type: Number,
-        required: true
-      },
-      product_abv: {
-        type: Number,
-        required: true
-      },
-      options: [
+      products: [
         {
-          product_type: {
+          name: {
             type: String,
             required: true
           },
-          product_description: {
+          price: {
+            type: Number,
+            required: true
+          },
+          abv: {
+            type: Number,
+            required: true
+          },
+          description: {
             type: String,
             required: true
           },
-          product_price: {
-            type: Number,
+          stock: {
+            type: Boolean,
             required: true
           },
-          product_abv: {
-            type: Number,
+          image_url: {
+            type: String,
             required: true
-          }
+          },
+          options: [
+            {
+              name: {
+                type: String,
+                required: true
+              },
+              price: {
+                type: Number,
+                required: true
+              }
+            }
+          ]
         }
-      ]
+      ],
+      type_image_url: {
+        type: String,
+        required: true
+      }
     }
   ],
   date: {
