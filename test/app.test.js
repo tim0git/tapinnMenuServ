@@ -476,7 +476,6 @@ describe('APP TESTS', () => {
                     { name: 'Bottomless', price: 2.5 },
                   ],
                 },
-                ,
                 {
                   name: 'Orange Juice',
                   price: 2.8,
@@ -507,7 +506,6 @@ describe('APP TESTS', () => {
                     'https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/1280x1280/products/9816/4507/apivhqtcm__08307.1585226108.jpg?c=2&imbypass=on',
                   options: [{ name: 'Pot', price: 1.5 }],
                 },
-                ,
                 {
                   name: 'Coffee',
                   price: 3,
