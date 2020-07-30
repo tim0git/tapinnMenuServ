@@ -137,7 +137,7 @@ describe('APP TESTS', () => {
       request(app)
         .post('/api')
         .send({
-          venue_id: 5,
+          venue_id: 57,
           venue_name: 'another test venue',
           venue_tables: 5,
           menu: [
