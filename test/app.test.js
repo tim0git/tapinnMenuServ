@@ -236,6 +236,20 @@ describe('APP TESTS', () => {
                     { name: 'Double with Taurine', price: 2.5 },
                   ],
                 },
+                {
+                  name: 'Pink Vodka',
+                  price: 4.8,
+                  abv: 40,
+                  description: 'vodka but for girls',
+                  stock: true,
+                  image_url:
+                    'https://honestbrew.co.uk/cdn-cgi/image/onerror=redirect,quality=85,format=auto,metadata=copyright,width=540,height=720/wp-content/uploads/2014/10/Brewdog-Punk-IPA-Can-330ml.jpg',
+                  options: [
+                    { name: 'Double', price: 2.5 },
+                    { name: 'Double with Red Bull', price: 3.5 },
+                    { name: 'coke', price: 0.8 },
+                  ],
+                },
               ],
               type_image_url:
                 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQrTqHhQ7gaCHW0KjQG3AzkO-OK714rVIlXhg&usqp=CAU',
@@ -255,6 +269,19 @@ describe('APP TESTS', () => {
                   options: [
                     { name: 'add a tonic', price: +2 },
                     { name: 'Make it a double', price: 3.2 },
+                  ],
+                },
+                {
+                  name: 'More Gin',
+                  price: 7.8,
+                  abv: 40,
+                  description: 'becase one gin isnt enough',
+                  stock: true,
+                  image_url:
+                    'https://honestbrew.co.uk/cdn-cgi/image/onerror=redirect,quality=85,format=auto,metadata=copyright,width=540,height=720/wp-content/uploads/2014/10/Brewdog-Punk-IPA-Can-330ml.jpg',
+                  options: [
+                    { name: 'Double', price: 2.5 },
+                    { name: 'Tonic', price: 1.5 },
                   ],
                 },
               ],
@@ -277,6 +304,32 @@ describe('APP TESTS', () => {
                     { name: '1/3 Pint', price: -1.5 },
                   ],
                 },
+                {
+                  name: 'For real northern men',
+                  price: 7.8,
+                  abv: 5.4,
+                  description: 'Tastes like whippets',
+                  stock: true,
+                  image_url:
+                    'https://honestbrew.co.uk/cdn-cgi/image/onerror=redirect,quality=85,format=auto,metadata=copyright,width=540,height=720/wp-content/uploads/2014/10/Brewdog-Punk-IPA-Can-330ml.jpg',
+                  options: [
+                    { name: '1/2 Pint', price: -2.5 },
+                    { name: '1/3 Pint', price: -1.5 },
+                  ],
+                },
+                {
+                  name: 'The wizards Sleeve',
+                  price: 7.8,
+                  abv: 5.4,
+                  description: 'It is very wet',
+                  stock: true,
+                  image_url:
+                    'https://honestbrew.co.uk/cdn-cgi/image/onerror=redirect,quality=85,format=auto,metadata=copyright,width=540,height=720/wp-content/uploads/2014/10/Brewdog-Punk-IPA-Can-330ml.jpg',
+                  options: [
+                    { name: '1/2 Pint', price: -2.5 },
+                    { name: '1/3 Pint', price: -1.5 },
+                  ],
+                },
               ],
               type_image_url:
                 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQrTqHhQ7gaCHW0KjQG3AzkO-OK714rVIlXhg&usqp=CAU',
@@ -292,6 +345,32 @@ describe('APP TESTS', () => {
                   stock: true,
                   image_url:
                     'https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/1280x1280/products/9816/4507/apivhqtcm__08307.1585226108.jpg?c=2&imbypass=on',
+                  options: [
+                    { name: '1/2 Pint', price: -2.5 },
+                    { name: '1/3 Pint', price: -1.5 },
+                  ],
+                },
+                {
+                  name: 'Corbyns Cream',
+                  price: 7.8,
+                  abv: 5.4,
+                  description: 'A drink for the comrades',
+                  stock: true,
+                  image_url:
+                    'https://honestbrew.co.uk/cdn-cgi/image/onerror=redirect,quality=85,format=auto,metadata=copyright,width=540,height=720/wp-content/uploads/2014/10/Brewdog-Punk-IPA-Can-330ml.jpg',
+                  options: [
+                    { name: '1/2 Pint', price: -2.5 },
+                    { name: '1/3 Pint', price: -1.5 },
+                  ],
+                },
+                {
+                  name: 'Blairs Brew',
+                  price: 7.8,
+                  abv: 5.4,
+                  description: 'looks the part but has a taste of tory',
+                  stock: true,
+                  image_url:
+                    'https://honestbrew.co.uk/cdn-cgi/image/onerror=redirect,quality=85,format=auto,metadata=copyright,width=540,height=720/wp-content/uploads/2014/10/Brewdog-Punk-IPA-Can-330ml.jpg',
                   options: [
                     { name: '1/2 Pint', price: -2.5 },
                     { name: '1/3 Pint', price: -1.5 },
@@ -318,6 +397,19 @@ describe('APP TESTS', () => {
                     { name: '1/3 Pint', price: -1.5 },
                   ],
                 },
+                {
+                  name: 'Witches Hat',
+                  price: 7.8,
+                  abv: 5.4,
+                  description: 'tastes of a rusty cauldron',
+                  stock: true,
+                  image_url:
+                    'https://honestbrew.co.uk/cdn-cgi/image/onerror=redirect,quality=85,format=auto,metadata=copyright,width=540,height=720/wp-content/uploads/2014/10/Brewdog-Punk-IPA-Can-330ml.jpg',
+                  options: [
+                    { name: '1/2 Pint', price: -2.5 },
+                    { name: '1/3 Pint', price: -1.5 },
+                  ],
+                },
               ],
               type_image_url:
                 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQrTqHhQ7gaCHW0KjQG3AzkO-OK714rVIlXhg&usqp=CAU',
@@ -338,6 +430,32 @@ describe('APP TESTS', () => {
                     { name: 'with coke', price: 0.8 },
                   ],
                 },
+                {
+                  name: 'Bells',
+                  price: 7.8,
+                  abv: 5.4,
+                  description: 'Ding Dong',
+                  stock: true,
+                  image_url:
+                    'https://honestbrew.co.uk/cdn-cgi/image/onerror=redirect,quality=85,format=auto,metadata=copyright,width=540,height=720/wp-content/uploads/2014/10/Brewdog-Punk-IPA-Can-330ml.jpg',
+                  options: [
+                    { name: 'double', price: 2 },
+                    { name: 'with coke', price: 0.8 },
+                  ],
+                },
+                {
+                  name: 'Another Whiskey',
+                  price: 7.8,
+                  abv: 5.4,
+                  description: 'Ding Dong',
+                  stock: true,
+                  image_url:
+                    'https://honestbrew.co.uk/cdn-cgi/image/onerror=redirect,quality=85,format=auto,metadata=copyright,width=540,height=720/wp-content/uploads/2014/10/Brewdog-Punk-IPA-Can-330ml.jpg',
+                  options: [
+                    { name: 'double', price: 2 },
+                    { name: 'with coke', price: 0.8 },
+                  ],
+                },
               ],
               type_image_url:
                 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQrTqHhQ7gaCHW0KjQG3AzkO-OK714rVIlXhg&usqp=CAU',
@@ -348,7 +466,7 @@ describe('APP TESTS', () => {
                 {
                   name: 'Pepsi',
                   price: 2,
-                  abv: 9,
+                  abv: 0,
                   description: 'For when they do not have coke',
                   stock: true,
                   image_url:
@@ -356,6 +474,20 @@ describe('APP TESTS', () => {
                   options: [
                     { name: 'Pint', price: 1 },
                     { name: 'Bottomless', price: 2.5 },
+                  ],
+                },
+                ,
+                {
+                  name: 'Orange Juice',
+                  price: 2.8,
+                  abv: 0,
+                  description: 'taking the pith mate --- mike tyson 2020',
+                  stock: true,
+                  image_url:
+                    'https://honestbrew.co.uk/cdn-cgi/image/onerror=redirect,quality=85,format=auto,metadata=copyright,width=540,height=720/wp-content/uploads/2014/10/Brewdog-Punk-IPA-Can-330ml.jpg',
+                  options: [
+                    { name: 'pint', price: 2 },
+                    { name: 'bottomless', price: 6 },
                   ],
                 },
               ],
@@ -368,12 +500,26 @@ describe('APP TESTS', () => {
                 {
                   name: 'Tea',
                   price: 2.5,
-                  abv: 9,
+                  abv: 0,
                   description: 'Breakfast Tea',
                   stock: true,
                   image_url:
                     'https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/1280x1280/products/9816/4507/apivhqtcm__08307.1585226108.jpg?c=2&imbypass=on',
                   options: [{ name: 'Pot', price: 1.5 }],
+                },
+                ,
+                {
+                  name: 'Coffee',
+                  price: 3,
+                  abv: 0,
+                  description: 'The drink of rubbish first date',
+                  stock: true,
+                  image_url:
+                    'https://honestbrew.co.uk/cdn-cgi/image/onerror=redirect,quality=85,format=auto,metadata=copyright,width=540,height=720/wp-content/uploads/2014/10/Brewdog-Punk-IPA-Can-330ml.jpg',
+                  options: [
+                    { name: 'latte', price: 0.6 },
+                    { name: 'extra shot', price: 0.6 },
+                  ],
                 },
               ],
               type_image_url:
@@ -385,8 +531,21 @@ describe('APP TESTS', () => {
                 {
                   name: 'Mix Kebab',
                   price: 5.8,
-                  abv: 9,
+                  abv: 0,
                   description: 'All the spicy meat',
+                  stock: true,
+                  image_url:
+                    'https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/1280x1280/products/9816/4507/apivhqtcm__08307.1585226108.jpg?c=2&imbypass=on',
+                  options: [
+                    { name: 'sharer for 2', price: 2.6 },
+                    { name: 'sharer for 3', price: 4 },
+                  ],
+                },
+                {
+                  name: 'Tandoori Chicken',
+                  price: 5.8,
+                  abv: 0,
+                  description: 'All the spicy chicken',
                   stock: true,
                   image_url:
                     'https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/1280x1280/products/9816/4507/apivhqtcm__08307.1585226108.jpg?c=2&imbypass=on',
@@ -405,7 +564,7 @@ describe('APP TESTS', () => {
                 {
                   name: 'Pipers Crisps',
                   price: 1.8,
-                  abv: 9,
+                  abv: 0,
                   description: 'Because they are the best crisps',
                   stock: true,
                   image_url:
@@ -413,6 +572,19 @@ describe('APP TESTS', () => {
                   options: [
                     { name: 'large bag', price: 1.2 },
                     { name: 'nose bag', price: 40 },
+                  ],
+                },
+                {
+                  name: 'Nuts',
+                  price: 1.8,
+                  abv: 0,
+                  description: 'Peanuts',
+                  stock: true,
+                  image_url:
+                    'https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/1280x1280/products/9816/4507/apivhqtcm__08307.1585226108.jpg?c=2&imbypass=on',
+                  options: [
+                    { name: 'salted', price: 0 },
+                    { name: 'roasted', price: 0 },
                   ],
                 },
               ],
@@ -425,7 +597,7 @@ describe('APP TESTS', () => {
                 {
                   name: 'Dirty Burger',
                   price: 9.8,
-                  abv: 9,
+                  abv: 0,
                   description: 'You know you want it',
                   stock: true,
                   image_url:
@@ -434,6 +606,19 @@ describe('APP TESTS', () => {
                     { name: 'with chips', price: 2.2 },
                     { name: 'add bacon', price: 0.4 },
                     { name: 'add cheese', price: 0.9 },
+                  ],
+                },
+                {
+                  name: 'Fish and chips',
+                  price: 9.8,
+                  abv: 0,
+                  description: 'Chish and Fips',
+                  stock: true,
+                  image_url:
+                    'https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/1280x1280/products/9816/4507/apivhqtcm__08307.1585226108.jpg?c=2&imbypass=on',
+                  options: [
+                    { name: 'large chips', price: 1.2 },
+                    { name: 'mushy peas', price: 1 },
                   ],
                 },
               ],
@@ -446,12 +631,22 @@ describe('APP TESTS', () => {
                 {
                   name: 'BBQ Sauce',
                   price: 0.4,
-                  abv: 9,
+                  abv: 0,
                   description: 'Because some places charge for this',
                   stock: true,
                   image_url:
                     'https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/1280x1280/products/9816/4507/apivhqtcm__08307.1585226108.jpg?c=2&imbypass=on',
                   options: [],
+                },
+                {
+                  name: 'Garlic Bread',
+                  price: 1.8,
+                  abv: 0,
+                  description: 'Because they are the best crisps',
+                  stock: true,
+                  image_url:
+                    'https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/1280x1280/products/9816/4507/apivhqtcm__08307.1585226108.jpg?c=2&imbypass=on',
+                  options: [{ name: 'with cheese', price: 0.6 }],
                 },
               ],
               type_image_url:
@@ -463,7 +658,7 @@ describe('APP TESTS', () => {
                 {
                   name: 'Cookie Dough with ice cream',
                   price: 4.8,
-                  abv: 9,
+                  abv: 0,
                   description: 'Yum',
                   stock: true,
                   image_url:
@@ -472,6 +667,16 @@ describe('APP TESTS', () => {
                     { name: 'Extra Scoop', price: 0.4 },
                     { name: 'sharer for 2', price: 2 },
                   ],
+                },
+                {
+                  name: 'Profiteroles',
+                  price: 4.8,
+                  abv: 0,
+                  description: 'The only dessert Jeff likes',
+                  stock: true,
+                  image_url:
+                    'https://cdn11.bigcommerce.com/s-1ev3losdup/images/stencil/1280x1280/products/9816/4507/apivhqtcm__08307.1585226108.jpg?c=2&imbypass=on',
+                  options: [{ name: 'sharer for 2', price: 2 }],
                 },
               ],
               type_image_url:
